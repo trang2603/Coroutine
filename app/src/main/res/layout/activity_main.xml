@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="StartAsyncAwaitAll" />
+
+    <ImageView
+        android:id="@+id/ic_uncheck1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="200dp"
+        android:src="@drawable/ic_uncheck"/>
+    <ImageView
+        android:id="@+id/ic_uncheck2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="250dp"
+        android:src="@drawable/ic_uncheck"/>
+    <ImageView
+        android:id="@+id/ic_uncheck3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/ic_uncheck"/>
+    <ImageView
+        android:id="@+id/ic_uncheck4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="350dp"
+        android:src="@drawable/ic_uncheck"/>
+
+    <!--<EditText
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:hint="Typing" />-->
+
+    <Button
+        android:id="@+id/btnStartWithContext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="StartWithContext" />
+
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="250dp"
+        android:hint="Typing" />
+
+
+    <Button
+        android:id="@+id/btnLaunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="StartLaunch" />
+
+    <Button
+        android:id="@+id/btnAsyncAwait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="StartAsyncAwait" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="200dp"
+        android:src="@drawable/ic_uncheck"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="250dp"
+        android:src="@drawable/ic_uncheck"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/ic_uncheck"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="350dp"
+        android:src="@drawable/ic_uncheck"/>
+
+</RelativeLayout>
